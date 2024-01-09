@@ -18,8 +18,24 @@ body {
     font-weight: 700;
     padding: 18px 35px;
     margin-top: 30px;
+    
 
 }
+.btn-primary3 {
+    
+    color: white;
+    border-radius: 5px;
+    background: #FD6E0A;
+    font-size: 20px;
+    border: none;
+    color: #FFF;
+    font-weight: 700;
+    padding: 18px 35px;
+    margin-top: 30px;
+}
+
+
+
 
 .btn-primary2 {
     border-radius: 5px;
@@ -60,8 +76,8 @@ nav {
     display: flex;
     /*ekhn mary ar bakigula 2isde e nite hole justify content space between dite hobe*/
     justify-content: space-between;
-    align-items: center;
-    margin: 0 150px;
+    /* align-items: right; */
+     margin: 0 150px; 
 }
 
 nav ul {
@@ -236,7 +252,7 @@ main {
 
     font-weight: 600;
     margin-bottom: 10px;
-    
+
 
 
 }
@@ -254,14 +270,50 @@ main {
 .resume-item-description {
     /* padding: 5px; */
     color: #757575;
-    
+
     font-size: 16px;
-    
+
     font-weight: 400;
     line-height: 28px;
     /* 175% */
     margin-bottom: 30px;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
+}
+
+footer {
+    display: flex;
+    background-color: #FFF8F3;
+
+}
+
+.footer-column {
+    /* margin-top: 50px; */
+    padding: 130px;
+    width: 50%;
+    gap: 117px;
+    margin-right: 230px;
+
+}
+
+.social-link {
+    /* display: flex; */
+    text-align: center;
+
+    /* flex-shrink: 0; */
+}
+
+.contact input[type="text"], input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background:#FFF;
+    border: none;
+    width: 100%;
+    
 }
