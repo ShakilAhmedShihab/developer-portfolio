@@ -142,34 +142,126 @@ nav a {
 
 /*Main section styles*/
 main {
-    
+
     margin: 230px;
 }
 
 /*1.About section styles*/
 .about {
-     padding: 130px; 
+    padding: 130px;
 
     border-radius: 10px;
     background: #FFF8F3;
-     /* margin: 156px;  */
+    /* margin: 156px;  */
     margin-bottom: 130px;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
 }
-#what-i-do-description{
+
+#what-i-do-description {
     padding-left: 115px;
     padding-right: 115px;
-    
+
 }
-.skill-container{
+
+.skill-container {
     display: flex;
+    gap: 24px;
 }
-.skill{
+
+/*skills related styles
+*/
+.skill {
+    margin: 151px 33px 30px 33px;
+    width: 267px;
+    height: 377px;
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 130px;
+
+}
+
+.skill-paragraph {
+
+    color: var(--Dark-03, #757575);
+
+    font-size: 16px;
+
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+/* Resume section */
+.resume-colum-title {
+    color: #474747;
+
+    font-size: 30px;
+
+    font-weight: 700;
+
+}
+
+.resume-container {
+    display: flex;
+    gap: 71px;
+    margin-bottom: 30px;
+}
+
+.resume-colum-title {
+    text-decoration: underline;
+    color: #474747;
+
+    font-size: 30px;
+
+    font-weight: 700;
+    /* padding-top: 30px; */
+    margin-bottom: 30px;
+
+}
+
+.resume-item-institute {
+    color: #757575;
+
+    font-size: 20px;
+
+    font-weight: 600;
+    margin-bottom: 10px;
     
+
+
+}
+
+.resume-item-title {
+    color: #474747;
+
+    font-size: 25px;
+
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.resume-item-description {
+    /* padding: 5px; */
+    color: #757575;
+    
+    font-size: 16px;
+    
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    margin-bottom: 30px;
+}
+.download-cv{
+    text-align: center;
 }
