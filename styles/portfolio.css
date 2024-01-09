@@ -1,3 +1,5 @@
+/*NAV RELATED STYLES*/
+
 /*share styles*/
 body {
     font-family: 'Open Sans', sans-serif;
@@ -24,6 +26,7 @@ nav {
     /*ekhn mary ar bakigula 2isde e nite hole justify content space between dite hobe*/
     justify-content: space-between;
     align-items: center;
+    margin: 0 150px;
 }
 
 nav ul {
@@ -49,4 +52,24 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+/*HEADER Related styles*/
+.header {
+    background-color: #FFF8F3;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+     align-items:center;  
+    /* justify-content: space-between */
+}
+
+.banner .profilepic {
+    width: 584px;
+    height: 676px;
+    /* flex-shrink: 0; */
+
+
 }
