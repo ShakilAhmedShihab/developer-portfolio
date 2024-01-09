@@ -17,7 +17,42 @@ body {
     color: #FFF;
     font-weight: 700;
     padding: 18px 35px;
+    margin-top: 30px;
 
+}
+
+.btn-primary2 {
+    border-radius: 5px;
+    background: #FD6E0A;
+    font-size: 20px;
+    border: none;
+    color: #FFF;
+    font-weight: 700;
+    padding: 18px 35px;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+
+    font-size: 35px;
+
+    font-weight: 700;
+
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+
+    font-size: 18px;
+
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
 }
 
 /* Nav related styles */
@@ -57,13 +92,23 @@ nav a {
 /*HEADER Related styles*/
 .header {
     background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    /*etay pic repeat hoy. so eta bndho koar jnno "backgrnd repeat tool diye use korte hobe no repeat"
+    */
+    background-repeat: no-repeat;
+    /*image position thik korte hbe.. eta tool hocche "background position" then botton and right */
+    background-position: bottom right;
+}
+
+.baneer-content {
+    max-width: 585px;
 }
 
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
-     align-items:center;  
-    /* justify-content: space-between */
+
+    justify-content: space-between
 }
 
 .banner .profilepic {
@@ -72,4 +117,59 @@ nav a {
     /* flex-shrink: 0; */
 
 
+}
+
+.banner1 {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner2 {
+    font-size: 85px;
+    color: #181818;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px
+}
+
+/*Main section styles*/
+main {
+    
+    margin: 230px;
+}
+
+/*1.About section styles*/
+.about {
+     padding: 130px; 
+
+    border-radius: 10px;
+    background: #FFF8F3;
+     /* margin: 156px;  */
+    margin-bottom: 130px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+#what-i-do-description{
+    padding-left: 115px;
+    padding-right: 115px;
+    
+}
+.skill-container{
+    display: flex;
+}
+.skill{
+    
 }
